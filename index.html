@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classic Snake Game</title>
+    <style>
+        #gameGrid {
+            position: relative;
+            height: 400px;
+            width: 400px;
+        }
+        .grid {
+            background-color: #000;
+        }
+        .snake {
+            background-color: #fff;
+        }
+        .food {
+            background-color: #f00;
+        }
+        .game-over {
+            color: #f00;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <button id="startButton">Start</button>
+    <div id="scoreDisplay"></div>
+    <div id="gameGrid"></div>
+    <div id="gameOverMessage" class="game-over"></div>
+
+    <script>
+        let snake = [];
+        let food = {};
+        let score = 0;
+        let direction = '';
+
+        function startGame() {
+            // Initialize game state
+        }
+
+        function endGame() {
+            // Display game over message and final score
+        }
+
+        function moveSnake() {
+            // Move the snake in the current direction
+        }
+
+        function generateFood() {
+            // Generate food at a random position on the grid
+        }
+
+        function updateScore() {
+            // Update the score display
+        }
+
+        function checkCollision() {
+            // Check if the snake has collided with the game boundary or its own body
+        }
+
+        document.getElementById('startButton').addEventListener('click', startGame);
+        window.addEventListener('keydown', function(event) {
+            // Change the direction of the snake based on the key pressed
+        });
+    </script>
+</body>
+</html>
